@@ -8,7 +8,8 @@ sc.addPyFile(root_dir + 'raster_utils.py')
 sc.addPyFile(root_dir + 'rdd_utils.py')
 sc.addPyFile(root_dir + 'constants.py')
 sc.addPyFile(root_dir + 's3_utils.py')
-
+sc.addPyFile(root_dir + 'geo_vars.py')
+sc.addPyFile(root_dir + 'time_vars.py')
 
 from geo_vars import (
     tiff_to_array,
